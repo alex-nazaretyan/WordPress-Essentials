@@ -375,7 +375,7 @@ nav ul li i {
 
 .footer-items {
     display: flex;
-    background-color: #2C2C3A;
+    background-color: #234465;
     justify-content: space-around;
 }
 
@@ -383,7 +383,7 @@ nav ul li i {
     text-decoration: none;
     list-style: none;
     color: white;
-    padding: 4px;
+    padding: 3px;
     cursor: pointer;
 }
 
@@ -414,8 +414,8 @@ nav ul li i {
 .icon-items ul li {
     text-decoration: none;
     list-style: none;
-    padding: 20px;
-    font-size: 25px;
+    padding: 25px 15px 0 15px;
+    font-size: 20px;
     cursor: pointer;
 }
 
@@ -426,4 +426,3 @@ nav ul li i {
 footer {
     margin-top: 100px;
 }
-footer
