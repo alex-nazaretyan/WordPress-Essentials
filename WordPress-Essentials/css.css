@@ -85,7 +85,6 @@ nav ul li i {
     color: #DEA861;
     cursor: pointer;
     font-weight: bold;
-    
 }
 
 .second-p {
@@ -93,7 +92,6 @@ nav ul li i {
     color: #234465;
     font-weight: bold;
 }
-
 
 .main-wrapper {
     background-color: #312E3B;
@@ -114,8 +112,9 @@ nav ul li i {
     padding: 0px 30px;
     font-size: 18px;
 }
-.main-wrapper ul li i{
-   padding-right: 10px;
+
+.main-wrapper ul li i {
+    padding-right: 10px;
 }
 
 .main-wrapper-btn {
@@ -154,10 +153,9 @@ nav ul li i {
 .about-course-content {
     width: 78%;
     font-size: 18px;
-    
-  
 }
-.about-course-content span{
+
+.about-course-content span {
     color: #23466A;
     font-weight: bold;
 }
@@ -167,7 +165,8 @@ nav ul li i {
     color: #234465;
     font-size: 24px;
 }
-.about-course-h3 h3{
+
+.about-course-h3 h3 {
     margin-bottom: 0;
 }
 
@@ -185,7 +184,7 @@ nav ul li i {
 .skills-section {
     background-color: #F2F2F2;
     width: 83%;
-    margin: 15px auto;
+    margin: 20px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -197,7 +196,8 @@ nav ul li i {
     font-size: 20px;
     color: #5D6871;
 }
-.skills-section ul li i{
+
+.skills-section ul li i {
     color: #FFA000;
     font-size: 30px;
     padding-right: 5px;
@@ -217,7 +217,8 @@ nav ul li i {
 .skills-section-uls {
     margin: 0px 50px;
 }
-.skills-section-uls ul{
+
+.skills-section-uls ul {
     padding-bottom: 30px;
     margin-top: 0;
 }
@@ -228,14 +229,16 @@ nav ul li i {
     align-items: center;
     background-color: #F2F2F2;
     width: 83%;
-    margin: 15px auto;
+    margin: 20px auto;
 }
 
 .topic-section-uls {
     display: flex;
     align-items: center;
+    margin-right: 50px;
 }
-.topic-section-uls li{
+
+.topic-section-uls li {
     cursor: pointer;
 }
 
@@ -243,23 +246,28 @@ nav ul li i {
     margin: 15px;
 }
 
-.ko li {
+.both-sides li {
     list-style: none;
     background-color: #DADADA;
     margin: 13px -13px;
-    padding: 10px;
-    border-left: 3px solid #234465;
+    padding: 3px 40px 3px 7px;
+    border-left: 4px solid #234465;
     width: 500px;
+    font-weight: bold;
+    color: #565C62;
 }
 
 .span-color {
     color: #234465;
+    padding-right: 15px;
+    padding-left: 3px;
+    font-size: 21px;
 }
 
 .topic-h3 {
     color: #234465;
     margin-bottom: 0;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .topic-h3-content {
@@ -272,21 +280,25 @@ nav ul li i {
     align-items: center;
     background-color: #FFA000;
     width: 83%;
-    margin: 15px auto;
+    margin: 20px auto;
     color: white;
 }
 
 .course-info-h3 {
     color: white;
+    margin-bottom: 0;
+    margin-top: 10px;
+    font-size: 24px;
 }
 
 .course-info-h3-border {
-    border-bottom: 3px solid white;
+    border-bottom: 4px solid white;
+    width: 25%;
 }
 
 .course-info-section-p {
-    font-size: 17px;
-    margin: 0 184px;
+    font-size: 20px;
+    margin: 0 83px;
 }
 
 .more-info-section {
@@ -296,10 +308,23 @@ nav ul li i {
     height: 345px;
 }
 
+.more-info-section span {
+    color: #585E65;
+    font-weight: bold;
+}
+
 .bold-p {
     color: #FFA000;
     margin-top: 0px;
     padding-top: 10px;
+    margin-bottom: -15px;
+    font-weight: bold;
+}
+
+.info-section-p p {
+    font-size: 17px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .more-info-section div {
@@ -307,49 +332,42 @@ nav ul li i {
     margin: 15px;
 }
 
-.for-positioning {
+.more-info-for-course {
     width: 100%;
-    position: relative;
-    left: 30px;
-    top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    margin: 0 auto;
 }
 
-.first-article-content {
+.first-part {
     background-color: #234465;
     color: white;
-    height: 100px;
-    width: 1200px;
-    position: relative;
-    top: 16px;
+    display: flex;
 }
 
-.second-article-content {
+.second-part {
     background-color: #FFA000;
     color: white;
-    width: 1200px;
-    height: 50px;
+    display: flex;
 }
 
-.first-article-content ul {
-    position: relative;
-    left: 400px;
-    bottom: 50px;
-}
-
-.second-article-content ul {
-    position: relative;
-    left: 400px;
-    bottom: 46px;
-}
-
-.first-article-content p {
-    padding: 10px;
+.first-part p {
+    padding: 0 120px 0px 20px;
+    font-weight: bold;
     font-size: 16px;
 }
 
-.second-article-content p {
-    padding: 10px;
+.second-part p {
+    padding: 0 160px 0px 20px;
     font-size: 16px;
+    font-weight: bold;
+}
+.first-part ul{
+    margin-left: 60px;
+}
+.second-part ul{
+    margin-left: 60px;
 }
 
 .footer-items {
@@ -372,7 +390,7 @@ nav ul li i {
 }
 
 .footer-ul-items ul {
-  margin: 10px;
+    margin: 10px;
 }
 
 .footer-span {
@@ -403,5 +421,5 @@ nav ul li i {
 }
 
 footer {
-    margin-top: 25px;
+    margin-top: 60px;
 }
