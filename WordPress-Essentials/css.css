@@ -1,6 +1,8 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
 body {
     margin: 0;
+    font-family: 'Alegreya', serif;
 }
 
 h1 {
@@ -46,6 +48,7 @@ nav ul li {
     color: white;
     font-size: 14px;
     cursor: pointer;
+    font-weight: bold;
 }
 
 nav ul li i {
@@ -60,10 +63,12 @@ nav ul li i {
     color: white;
     font-size: 14px;
     cursor: pointer;
+    font-weight: bold;
 }
 
 .li {
     color: #8D9AA8;
+    font-weight: bold;
 }
 
 .text-under-header {
@@ -71,18 +76,24 @@ nav ul li i {
 }
 
 .text-under-header div {
-    padding: 10px 5px;
+    padding: 0 10px;
     position: relative;
     left: 220px;
 }
 
 .first-p {
     color: #DEA861;
+    cursor: pointer;
+    font-weight: bold;
+    
 }
 
 .second-p {
+    cursor: pointer;
     color: #234465;
+    font-weight: bold;
 }
+
 
 .main-wrapper {
     background-color: #312E3B;
@@ -103,6 +114,9 @@ nav ul li i {
     padding: 0px 30px;
     font-size: 18px;
 }
+.main-wrapper ul li i{
+   padding-right: 10px;
+}
 
 .main-wrapper-btn {
     border-radius: 30px;
@@ -112,6 +126,7 @@ nav ul li i {
     padding: 6px 58px;
     margin: 20px;
     cursor: pointer;
+    font-weight: bold;
 }
 
 .wordpress-logo img {
@@ -137,12 +152,21 @@ nav ul li i {
 }
 
 .about-course-content {
-    width: 56%;
+    width: 78%;
+    font-size: 18px;
+    
+  
+}
+.about-course-content span{
+    color: #23466A;
+    font-weight: bold;
 }
 
 .about-course-h3 {
     border-bottom: 4px solid #FFBD4D;
     color: #234465;
+    margin-bottom: 0;
+    font-size: 24px;
 }
 
 .about-course-button {
@@ -153,6 +177,7 @@ nav ul li i {
     padding: 6px 58px;
     margin-bottom: 30px;
     cursor: pointer;
+    font-weight: bold;
 }
 
 .skills-section {
