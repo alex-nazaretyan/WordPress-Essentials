@@ -110,7 +110,8 @@ nav ul li i {
 
 .main-wrapper ul li {
     padding: 0px 30px;
-    font-size: 18px;;
+    font-size: 18px;
+    ;
     color: white;
 }
 
@@ -366,10 +367,12 @@ nav ul li i {
     font-size: 16px;
     font-weight: bold;
 }
-.first-part ul{
+
+.first-part ul {
     margin-left: 60px;
 }
-.second-part ul{
+
+.second-part ul {
     margin-left: 60px;
 }
 
@@ -421,7 +424,7 @@ nav ul li i {
 
 .copy-right-text {
     padding-left: 15px;
-}
+} 
 
 footer {
     margin-top: 100px;
