@@ -110,11 +110,14 @@ nav ul li i {
 
 .main-wrapper ul li {
     padding: 0px 30px;
-    font-size: 18px;
+    font-size: 18px;;
+    color: white;
 }
 
 .main-wrapper ul li i {
     padding-right: 10px;
+    font-size: 23px;
+    color: white;
 }
 
 .main-wrapper-btn {
@@ -421,5 +424,5 @@ nav ul li i {
 }
 
 footer {
-    margin-top: 60px;
+    margin-top: 100px;
 }
