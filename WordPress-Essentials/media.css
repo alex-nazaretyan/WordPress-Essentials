@@ -1,0 +1,11 @@
+/*MEDIAS FOR SAMSUNG S20*/
+
+/*Resolution 1440 x 3200 -> viewport 360 x 800*/
+
+/*Header section media query*/
+
+@media all and (min-width:360px) and (max-width: 800px) {
+    @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
+
+
+}
