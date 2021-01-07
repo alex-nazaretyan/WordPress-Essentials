@@ -40,6 +40,9 @@ nav ul li {
     font-size: 15px;
     cursor: pointer;
 }
+.drop-down-menu-button{
+    display: none;
+}
 
 .logo-btn {
     position: relative;

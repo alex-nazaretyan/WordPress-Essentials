@@ -6,6 +6,48 @@
 
 @media all and (min-width:360px) and (max-width: 800px) {
     @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
+    
+    body{
+        width: 800px;
+    }
+}
 
+@media all and (min-width:360px) and (max-width: 800px) {
+    @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
 
+    .text-under-header{
+        display: flex;
+        justify-content: space-around;
+    }
+    .text-under-header div{
+        position: unset;
+    }
+    .text-under-header div p{
+        font-size: 25px;
+    }
+    .main-wrapper h1{
+        font-size: 50px;
+    }
+    .main-wrapper ul li{
+        font-size: 30px;
+    }
+    .mani-wrapper button{
+        font-size: 27px;
+    }
+    .wordpress-logo img{
+        width: 80%;
+    }
+    .about-course-h3 h3{
+        font-size: 40px;
+    }
+    .about-course-content p{
+        font-size: 30px;
+        text-align: center;
+    }
+    .about-course-button{
+        font-size: 30px;
+    }
+    .skills-section-h3{
+        font-size: 30px;
+    }
 }
