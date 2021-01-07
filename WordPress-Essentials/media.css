@@ -50,4 +50,23 @@
     .skills-section-h3{
         font-size: 30px;
     }
+    .skills-section-uls ul li{
+        font-size: 22px;
+    }
+    .topic-h3-content{
+        border-bottom: 5px solid #FFBD4D;
+    }
+    .topic-h3{
+        font-size: 40px;
+    }
+    .topic-section-uls{
+        flex-direction: column;
+    }
+    .both-sides{
+        margin: 0;
+    }
+    .both-sides ul{
+        margin: 0;
+        font-size: 19px;
+    }
 }
