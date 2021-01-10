@@ -351,35 +351,35 @@ nav ul li i {
     margin: 0 auto;
 }
 
-.first-part {
+.more-info-course-first-part {
     background-color: #234465;
     color: white;
     display: flex;
 }
 
-.second-part {
+.more-info-course-second-part {
     background-color: #FFA000;
     color: white;
     display: flex;
 }
 
-.first-part p {
+.more-info-course-first-part p {
     padding: 0 120px 0px 20px;
     font-weight: bold;
     font-size: 16px;
 }
 
-.second-part p {
+.more-info-course-second-part p {
     padding: 0 160px 0px 20px;
     font-size: 16px;
     font-weight: bold;
 }
 
-.first-part ul {
+.more-info-course-first-part ul {
     margin-left: 60px;
 }
 
-.second-part ul {
+.more-info-course-second-part ul {
     margin-left: 60px;
 }
 

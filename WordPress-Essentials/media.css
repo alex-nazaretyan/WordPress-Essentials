@@ -6,67 +6,178 @@
 
 @media all and (min-width:360px) and (max-width: 800px) {
     @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
-    
-    body{
+    body {
         width: 800px;
+    }
+    .logo-img {
+        width: 170px;
+    }
+    .logo-btn {
+        font-size: 20px;
+        margin: 0 85px;
+    }
+    .drop-down-menu-button {
+        display: flex;
+        font-size: 40px;
+        justify-content: flex-start;
+    }
+    nav ul {
+        display: none;
+    }
+    .hover-function:hover ul {
+        position: absolute;
+        background-color: #234465;
+        z-index: 1;
+        display: flex;
+        width: 800px;
+        left: 0;
+        top: 40px;
+        padding-top: 20px;
+        justify-content: space-evenly;
+    }
+    .hover-function ul li{
+        font-size: 20px;
+    }
+    .enter-btn{
+        font-size: 20px;
     }
 }
 
-@media all and (min-width:360px) and (max-width: 800px) {
-    @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
+/*Main section media query*/
 
-    .text-under-header{
+@media all and (min-width:360px) and (max-width: 800px) {
+    .text-under-header {
         display: flex;
         justify-content: space-around;
     }
-    .text-under-header div{
+    .text-under-header div {
         position: unset;
     }
-    .text-under-header div p{
+    .text-under-header div p {
         font-size: 25px;
     }
-    .main-wrapper h1{
+    .main-wrapper h1 {
         font-size: 50px;
     }
-    .main-wrapper ul li{
+    .main-wrapper ul li {
         font-size: 30px;
     }
-    .mani-wrapper button{
+    .mani-wrapper button {
         font-size: 27px;
     }
-    .wordpress-logo img{
+    .main-wrapper-btn {
+        font-size: 20px;
+    }
+    .wordpress-logo img {
         width: 80%;
     }
-    .about-course-h3 h3{
+    .about-course-h3 h3 {
         font-size: 40px;
     }
-    .about-course-content p{
+    .about-course-content p {
         font-size: 30px;
         text-align: center;
     }
-    .about-course-button{
+    .about-course-button {
         font-size: 30px;
     }
-    .skills-section-h3{
+    .skills-section-h3 {
         font-size: 30px;
     }
-    .skills-section-uls ul li{
+    .skills-section-uls ul li {
         font-size: 22px;
     }
-    .topic-h3-content{
+    .topic-h3-content {
         border-bottom: 5px solid #FFBD4D;
     }
-    .topic-h3{
+    .topic-h3 {
         font-size: 40px;
     }
-    .topic-section-uls{
+    .topic-section-uls {
         flex-direction: column;
     }
-    .both-sides{
+    .both-sides {
         margin: 0;
     }
-    .both-sides ul{
+    .both-sides ul {
         margin: 0;
         font-size: 19px;
+    }
+    .course-info-h3 {
+        font-size: 40px;
+    }
+    .course-info-h3-border {
+        border-bottom: 5px solid white;
+    }
+    .course-info-section-p p {
+        font-size: 35px;
+        text-align: center;
+    }
+    .bold-p {
+        font-size: 30px;
+    }
+    .more-info-section {
+        height: 900px;
+    }
+    .more-info-section-content {
+        font-size: 25px;
+    }
+    .info-section-p p {
+        font-size: 25px;
+    }
+    .more-info-for-course {
+        width: 700px;
+        position: relative;
+        right: 20px;
+    }
+    .more-info-course-first-part p {
+        font-size: 25px;
+    }
+    .more-info-course-first-part ul {
+        margin-left: 0;
+    }
+    .more-info-course-first-part ul li {
+        font-size: 25px;
+    }
+    .more-info-course-second-part p {
+        font-size: 25px;
+    }
+    .more-info-course-second-part ul {
+        margin-left: 0;
+    }
+    .more-info-course-second-part ul li {
+        font-size: 25px;
+    }
+    .info-section-p .bold-p {
+        font-size: 30px;
+    }
+    .more-info-section-second-content {
+        font-size: 25px;
+    }
+}
+
+/*Footer section media query*/
+
+@media all and (min-width:360px) and (max-width: 800px) {
+    @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
+    .footer-items {
+        flex-direction: column;
+    }
+    .footer-span {
+        font-size: 25px;
+    }
+    .footer-items ul li {
+        font-size: 25px;
+    }
+    .icon-items {
+        margin: 0 auto;
+    }
+    .icon-items ul a li i {
+        font-size: 50px;
+        padding: 20px;
+    }
+    .copy-right-text {
+        text-align: center;
+        font-size: 30px;
     }
 }
