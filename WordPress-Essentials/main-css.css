@@ -1,5 +1,6 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+@import "styles/main-sass.scss";
 body {
     margin: 0;
     font-family: 'Alegreya', serif;
@@ -137,6 +138,7 @@ nav ul li i {
     margin: 20px;
     cursor: pointer;
     font-weight: bold;
+
 }
 
 .wordpress-logo img {
